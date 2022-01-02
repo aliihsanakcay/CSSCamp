@@ -1,0 +1,129 @@
+:root {
+    --color-1: #52006A;
+    --color-2: #CD113B; 
+    --color-3: #FF7600;
+    --color-4: #FFA900; 
+}
+
+body * {
+    margin: 0;
+}
+
+.color-1 {
+    color: var(--color-1);
+}
+
+.color-2 {
+    color: var(--color-2);
+}
+
+.color-3 {
+    color: var(--color-3);
+}
+
+.color-4 {
+    color: var(--color-4);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.border-bottom-color-3 {
+    border-bottom: 1px solid var(--color-3); ;
+}
+
+.img-responsive {
+    width: 100%; 
+}
+
+.max-width-300 {
+    max-width: 300px;
+}
+
+.muzik-aleti-card {
+    display: flex; 
+    justify-content: center;
+}
+
+.muzik-aletleri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    margin: auto;
+}
+
+
+@media all and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.navbar > ul > li {
+    display: inline-flex;
+    margin: 0 16px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
